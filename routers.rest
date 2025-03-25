@@ -1,0 +1,29 @@
+//LOCALHOST
+## Get all contacts
+GET http://localhost:3000/contacts
+
+### GET Contact by id
+GET http://localhost:3000/contacts/59b99db4cfa9a34dcd7885b6
+
+### Create contact
+POST http://locathost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Ned Stark",
+    "email": "sean_bean@gameofthron.es",
+    "password": "$2b$12$UREFwsRUoyF0CRqGNK0LzO0HM/jLhgUCNNIJ9RJAqMUQ74crlJ1Vu"
+}
+
+### PUT contact
+POST http://locathost:3000/contacts/59b99db4cfa9a34dcd7885b7 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Robert Baratheon",
+    "email": "mark_addy@gameofthron.es",
+    "password": "$2b$12$yGqxLG9LZpXA2xVDhuPnSOZd.VURVkz7wgOLY3pnO0s7u2S1ZO32y"
+}
+
+### DELETE contact
+DELETE Hhttp://localhost:3000/contacts/
