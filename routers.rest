@@ -10,19 +10,23 @@ POST http://locathost:3000/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Ned Stark",
     "email": "sean_bean@gameofthron.es",
-    "password": "$2b$12$UREFwsRUoyF0CRqGNK0LzO0HM/jLhgUCNNIJ9RJAqMUQ74crlJ1Vu"
+    "birthday": "7 June 1994",
+    "favoriteColor": "Blue ",
+    "firstName": "Ned Stark",
+    "lastName": "Stark"
 }
 
 ### PUT contact
-POST http://locathost:3000/contacts/59b99db4cfa9a34dcd7885b7 HTTP/1.1
+POST http://locathost:3000/contacts/59b99dbecfa9a34dcd7885ca HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Robert Baratheon",
-    "email": "mark_addy@gameofthron.es",
-    "password": "$2b$12$yGqxLG9LZpXA2xVDhuPnSOZd.VURVkz7wgOLY3pnO0s7u2S1ZO32y"
+    "email": "john_bradley-west@gameofthron.es",
+    " favoriteColor": "black",
+    " firstName": "Samwell ",
+    " lastName": "Tarly",
+    "birthday": "17 May 1994"
 }
 
 ### DELETE contact
