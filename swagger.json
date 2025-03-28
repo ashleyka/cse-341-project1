@@ -5,38 +5,25 @@
     "description": "User Api",
     "version": "1.0.0"
   },
-  "host": "cse-341-project1-8wcl.onrender.com/",
+  "host": "cse-341-project1-8wcl.onrender.com",
   "basePath": "/",
   "schemes": [
     "http",
     "https"
   ],
-  "paths":{
-    "/":{
-      "get":{
-        "tags":[
-          "Hello World"
-        ],
-        "description":"",
-        "responses":{
-          "200":{
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [],
+        "description": "",
+        "responses": {
+          "200": {
             "description": "OK"
           }
         }
       }
-    }
-  },
-  "/api-docs":{
-    "get": {
-      "description":"",
-      "responses":{
-        "default":{
-          "description":""
-        }
-      }
-    }
-  },
- 
+    },
+   
     "/contacts/": {
       "get": {
         "tags": [
@@ -186,3 +173,4 @@
       }
     }
   }
+}
